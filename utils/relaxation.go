@@ -1,5 +1,5 @@
 // Copyright 2013 Przemyslaw Szczepaniak.
-// MIT License: See https://github.com/gorhill/Javascript-Voronoi/LICENSE.md
+// MIT License: See https://github.com/pzsz/voronoi/blob/master/LICENSE.md
 
 // Author: Przemyslaw Szczepaniak (przeszczep@gmail.com)
 // Utils for processing voronoi diagrams
@@ -9,7 +9,6 @@ package utils
 import (
 	"github.com/pzsz/voronoi"
 )
-
 
 // Apply lloyd relaxation algorithm to the cells.
 func LloydRelaxation(cells []*voronoi.Cell) (ret []voronoi.Vertex) {

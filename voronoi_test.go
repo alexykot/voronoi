@@ -1,15 +1,16 @@
 // MIT License: See https://github.com/pzsz/voronoi/LICENSE.md
 
 // Author: Przemyslaw Szczepaniak (przeszczep@gmail.com)
-// Port of Raymond Hill's (rhill@raymondhill.net) javascript implementation 
+// Port of Raymond Hill's (rhill@raymondhill.net) javascript implementation
 // of Steven Forune's algorithm to compute Voronoi diagrams
 
 package voronoi_test
 
 import (
-	. "github.com/pzsz/voronoi"
 	"math/rand"
 	"testing"
+
+	. "github.com/pzsz/voronoi"
 )
 
 func verifyDiagram(diagram *Diagram, edgesCount, cellsCount, perCellCount int, t *testing.T) {
